@@ -946,12 +946,21 @@ input[type="range"]::-ms-fill-lower {
   margin-right: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mr-10 {
   margin-right: 2.5rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-3 {
@@ -962,8 +971,8 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .block {
@@ -1008,6 +1017,14 @@ input[type="range"]::-ms-fill-lower {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .cursor-pointer {
@@ -1101,6 +1118,15 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#34495e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 73 94 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1119,6 +1145,14 @@ input[type="range"]::-ms-fill-lower {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-28 {
+  padding: 7rem;
+}
+
+.p-32 {
+  padding: 8rem;
 }
 
 .px-10 {
@@ -1164,6 +1198,21 @@ input[type="range"]::-ms-fill-lower {
 .py-\[16\.5rem\] {
   padding-top: 16.5rem;
   padding-bottom: 16.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pr-5 {
@@ -1420,21 +1469,52 @@ input[type="range"]::-ms-fill-lower {
     gap: 4vw;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
 
   .md\:text-\[2rem\] {
     font-size: 2rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-\[\] {
-    color: ;
   }
 }
 
@@ -1453,6 +1533,11 @@ input[type="range"]::-ms-fill-lower {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:text-start {

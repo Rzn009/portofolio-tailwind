@@ -3,10 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
-    fontFamily:{
+    fontFamily: {
       'raleway': ['Raleway', 'sans-serif'],
-        },
+      'handwriting': ['handwriting-draft_free-version', 'sans-serif'],
+    },
   },
   plugins: [require('flowbite/plugin')],
 }
-
